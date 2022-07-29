@@ -1,0 +1,12 @@
+<mat-sidenav-container class="page-container" autosize>
+  <mat-sidenav #sidenav class="page-sidenav" mode="side" fixedInViewport [opened]="sidenavExpandido">
+    <app-formulario-datos></app-formulario-datos>
+  </mat-sidenav>
+
+  <mat-sidenav-content class="sidenav-content">
+    <button type="button" mat-icon-button aria-label="hide form" (click)="togglePageSidenav()">
+      <mat-icon>{{ iconoBtnExpandir }}</mat-icon>
+    </button>
+    <app-tabla-cuotas class="tabla-cuotas"></app-tabla-cuotas>
+  </mat-sidenav-content>
+</mat-sidenav-container>

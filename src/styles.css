@@ -1,1 +1,32 @@
 /* You can add global styles to this file, and also import other style files */
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.page-container{
+  min-height: 100vh;
+}
+
+.page-sidenav {
+  padding: 15px;
+  position: relative;
+}
+
+.sidenav-content {
+  padding: 15px;
+}
+
+.tabla-cuotas table {
+  margin-top: 10px;
+  width: 100%;
+}
+
+/* .control {
+  width: 100%;
+}
+ */
